@@ -1,0 +1,23 @@
+/*
+ooooooooo.              .o88o.                             oooo                        .o8  
+`888   `Y88.            888 `"                             `888                       "888  
+ 888   .d88'  .ooooo.  o888oo  oooo d8b  .ooooo.   .oooo.o  888 .oo.    .ooooo.   .oooo888  
+ 888ooo88P'  d88' `88b  888    `888""8P d88' `88b d88(  "8  888P"Y88b  d88' `88b d88' `888  
+ 888`88b.    888ooo888  888     888     888ooo888 `"Y88b.   888   888  888ooo888 888   888  
+ 888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
+o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
+
+Refreshed - Layout
+By: OogaBoogaBrain 
+*/
+
+/* Channel List */
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav {
+	padding:0;
+}
+
+/* User Panel */
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > section {
+	background-color:rgba(128,128,128,0.1);
+	backdrop-filter:blur(10px);
+}
