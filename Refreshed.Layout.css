@@ -13,11 +13,74 @@ By: OogaBoogaBrain
 
 /* Channel List */
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav {
-	padding:0;
+	padding:0px;
+}
+.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c {
+	margin:0px;
+}
+.content__99f8c {
+	height:10000px!important;
+}
+
+/* Read All button */
+.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+	padding-left:6px;
+	padding-right:6px;
+	width:90%;
+	margin:auto;
 }
 
 /* User Panel */
-#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > section {
-	background-color:rgba(128,128,128,0.1);
-	backdrop-filter:blur(10px);
+.panels_c48ade {
+	background:rgba(128,128,128,0.1)!important;
+	background-color:rgba(128,128,128,0.1)!important;
+	backdrop-filter:blur(10px)!important;
+}
+
+/* User Panel > Screen Share */
+.panel__5dec7.activityPanel_c48ade {
+	background:transparent;
+}
+
+/* User Panel > Spotify Player */
+#vc-spotify-player {
+	background:transparent!important;
+}
+
+/* In Call > Users Speaking Halo */
+.border__2f4f7.speaking__2f4f7 {
+	box-shadow:var(--Refreshed-Accent-color) 0px 0px 0px 6px inset!important;
+	filter:blur(3px);
+}
+.avatarSpeaking__07f91 {
+	box-shadow:var(--Refreshed-Accent-color) 0px 0px 0px 2px inset!important;
+}
+
+
+/* In Call > Disconnect Button */
+.staticButton_f1ceac.centerButton_f1ceac.colorable_f1ceac.experimentButton_f1ceac.colorable_f1ceac.disconnect_f1ceac.fullRegionButton_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5:hover {
+	border:2px solid rgb(214, 54, 63);
+	padding:8px;
+}
+
+/* Window > Buttons */
+.winButton_c38106:hover {
+	border-radius:9px;
+}
+
+/* New Unreads Button */
+.bar__7aaec {
+	background:rgba(128,128,128,0.1)!important;
+	background-color:rgba(128,128,128,0.1)!important;
+	backdrop-filter:blur(10px)!important;
+}
+
+/* Server Selected / Unread Message */
+.item__58105, .unread__2ea32.unreadImportant__2ea32 {
+	background:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0))!important;
+}
+
+/* Default Server Icon Background */
+.childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
+	background-image: radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, rgba(0,0,0,1) 75%)!important;
 }
