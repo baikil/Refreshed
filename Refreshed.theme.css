@@ -3,7 +3,7 @@
  * @description Minimalist customisable theme for the new Discord version.
  * @author OogaBoogaBrain
  * @authorId 615359270367526912
- * @version 0.0.3
+ * @version 0.0.4
 
  ooooooooo.              .o88o.                             oooo                        .o8  
  `888   `Y88.            888 `"                             `888                       "888  
@@ -15,13 +15,10 @@
  */
 
 /* Refreshed imports */
-@import url(https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Colors.css);
-@import url(https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Layout.css);
-
+@import url(https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Look.css);
 
 /* Optionnal features */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
-
 
 /* Colors */
 :root {
