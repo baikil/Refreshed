@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.0.4 - Readable
+Refreshed v0.0.5 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -15,13 +15,24 @@ By: OogaBoogaBrain
 
 /* Refreshed Vars */
 :root {
+	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
+	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
 	--Refreshed-Radial-gradient:radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, rgba(0,0,0,1) 75%);
 }
 
 /* Default Vars */
 :root{
 	--bg-brand:var(--Refreshed-Accent-color)!important;
+	--brand-500:var(--Refreshed-Accent-color)!important;
+	--brand-560:color-mix(in oklab, var(--Refreshed-Accent-color) 80%, black)!important;
+	--opacity-blurple-16:var(--Refreshed-Accent-faint)!important;
+	--blurple-41:var(--Refreshed-Accent-color)!important;
+	--background-modifier-hover:var(--Refreshed-Accent-faint)!important;
+	--border-subtle:var(--Refreshed-Accent-faint)!important;
+	--background-modifier-accent:var(--Refreshed-Accent-faint)!important;
+	--app-border-frame:var(--Refreshed-Accent-faint)!important;
+	--border-faint:var(--Refreshed-Accent-faint)!important;
 }
 
 
@@ -101,10 +112,29 @@ By: OogaBoogaBrain
 
 /* Selected Message */
 .message__5126c:hover, .message__5126c.selected__5126c {
-  background:var(--Refreshed-Linear-gradient)!important;
+	background:var(--Refreshed-Linear-gradient)!important;
 }
 
 /* Default Channel Icon */
 .emptyChannelIcon__00de6.emptyChannelIconComponent__00de6 {
 	background:var(--Refreshed-Linear-gradient)!important;
+}
+
+/* Server Folder Icon */
+div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
+	color:var(--Refreshed-Accent-color)!important;
+}
+
+/* User Panel BG */
+:where(.outer_c0bea0) {
+    background:rgba(128,128,128,0.1)!important;
+	backdrop-filter:blur(16px)!important;
+}
+.inner_c0bea0.biteSize_c0bea0 {
+	background:transparent!important;
+}
+
+/* Friends Page > Border Color */
+.visual-refresh .container__9293f {
+    border-bottom: 1px solid var(--Refreshed-Accent-faint)!important;
 }
