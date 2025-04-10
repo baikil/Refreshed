@@ -2,11 +2,13 @@
  * @name Refreshed
  * @description Minimalist customisable theme for the new Discord version.
  * @author OogaBoogaBrain
+ * @version 0.0.6
  * @authorId 615359270367526912
  * @authorLink https://github.com/baikil
  * @source https://github.com/baikil/Refreshed
- * @version 0.0.5
-
+ * @updateUrl https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.theme.css
+ */
+ /*
  ooooooooo.              .o88o.                             oooo                        .o8  
  `888   `Y88.            888 `"                             `888                       "888  
   888   .d88'  .ooooo.  o888oo  oooo d8b  .ooooo.   .oooo.o  888 .oo.    .ooooo.   .oooo888  
@@ -14,13 +16,13 @@
   888`88b.    888ooo888  888     888     888ooo888 `"Y88b.   888   888  888ooo888 888   888  
   888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
  o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
- */
+*/
 
 /* Refreshed imports */
-@import url(https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Look.css);
+@import url("https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Look.css");
 
 /* Optionnal features */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css");
 
 /* Colors */
 :root {
