@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.0.6 - Readable
+Refreshed v0.0.7 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -137,4 +137,15 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
 /* Friends Page > Border Color */
 .visual-refresh .container__9293f {
     border-bottom: 1px solid var(--Refreshed-Accent-faint)!important;
+}
+
+/* In Call > Name Tag */
+.experimentOverlayTitle__2f4f7 {
+	backdrop-filter:blur(10px)!important;
+	background-color:rgba(64,64,64,0.2);
+}
+
+/* Sidebar > Selected Channel */
+.modeSelected__2ea32 .link__2ea32,.modeSelected__2ea32:hover .link__2ea32 {
+	background: var(--Refreshed-Linear-gradient-dim);
 }
