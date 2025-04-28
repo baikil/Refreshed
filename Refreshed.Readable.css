@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.0.9 - Readable
+Refreshed v0.1.0 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -15,11 +15,21 @@ By: OogaBoogaBrain
 
 /* Refreshed Vars */
 :root {
+	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
+	--Refreshed-Blur-value:blur(--Refreshed-Blur-ammount);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
 	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
 	--Refreshed-Radial-gradient:radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, rgba(0,0,0,1) 75%);
 }
+/*Variables Shrunken Names
+	--Refreshed-Transparent-bg		-> --RTB
+	--Refreshed-Blur-value			-> --RBV
+	--Refreshed-Accent-faint		-> --RAF
+	--Refreshed-Linear-gradient		-> --RLG
+	--Refreshed-Linear-gradient-dim	-> --RLGD
+	--Refreshed-Radial-gradient		-> --RRG
+*/
 
 /* Default Vars */
 :root{
@@ -60,8 +70,8 @@ By: OogaBoogaBrain
 
 /* User Panel */
 .panels_c48ade {
-	background:rgba(128,128,128,0.1)!important;
-	backdrop-filter:blur(10px)!important;
+	background:var(--Refreshed-Transparent-bg)!important;
+	backdrop-filter:var(--Refreshed-Blur-value)!important;
 }
 
 /* User Panel > Screen Share */
@@ -96,8 +106,8 @@ By: OogaBoogaBrain
 
 /* New Unreads Button */
 .bar__7aaec {
-	background:rgba(128,128,128,0.1)!important;
-	backdrop-filter:blur(10px)!important;
+	background:var(--Refreshed-Transparent-bg)!important;
+	backdrop-filter:var(--Refreshed-Blur-value)!important;
 }
 
 /* Server Selected / Unread Message */
@@ -127,8 +137,8 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
 
 /* User Panel BG */
 :where(.outer_c0bea0) {
-    background:rgba(128,128,128,0.1)!important;
-	backdrop-filter:blur(16px)!important;
+    background:var(--Refreshed-Transparent-bg)!important;
+	backdrop-filter:var(--Refreshed-Blur-value)!important;
 }
 .inner_c0bea0.biteSize_c0bea0 {
 	background:transparent!important;
@@ -141,8 +151,8 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
 
 /* In Call > Name Tag */
 .experimentOverlayTitle__2f4f7 {
-	backdrop-filter:blur(10px)!important;
-	background-color:rgba(64,64,64,0.2);
+	backdrop-filter:var(--Refreshed-Blur-value)!important;
+	background-color:var(--Refreshed-Transparent-bg);
 }
 
 /* Sidebar > Selected Channel */
@@ -158,4 +168,9 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
 /* DM List > Selected */
 .interactive_bf202d.interactive__972a0.interactiveSelected__972a0.selected_bf202d {
 	background: var(--Refreshed-Linear-gradient-dim);
+}
+
+/* Opened Event Background */
+.layer_bc663c {
+	backdrop-filter:blur(2px);
 }

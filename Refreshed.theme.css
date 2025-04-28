@@ -2,7 +2,7 @@
  * @name Refreshed
  * @description Minimalist customisable theme for the new Discord version.
  * @author OogaBoogaBrain
- * @version 0.0.9
+ * @version 0.1.0
  * @authorId 615359270367526912
  * @authorLink https://github.com/baikil
  * @source https://github.com/baikil/Refreshed
@@ -26,5 +26,6 @@
 
 /* Colors */
 :root {
-	--Refreshed-Accent-color:#3d94ae; /* Default: #3d94ae */
+	--Refreshed-Accent-color:#3d94ae;	/* Default: #3d94ae */
+	--Refreshed-Blur-ammount:10px;		/* Default: 10px */
 }
