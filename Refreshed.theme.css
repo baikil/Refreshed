@@ -2,7 +2,7 @@
  * @name Refreshed
  * @description Minimalist customisable theme for the new Discord version.
  * @author OogaBoogaBrain
- * @version 0.1.3
+ * @version 0.1.4
  * @authorId 615359270367526912
  * @authorLink https://github.com/baikil
  * @source https://github.com/baikil/Refreshed
@@ -23,8 +23,9 @@
 
 /* Optionnal features */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css");
+@import url("https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css");
 
-/* Colors */
+/* Settings */
 :root {
 	--Refreshed-Accent-color:#3d94ae;	/* Default: #3d94ae */
 	--Refreshed-Blur-value:blur(8px);	/* Default: 8px */
