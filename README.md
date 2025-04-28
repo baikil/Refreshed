@@ -12,7 +12,7 @@
 
 # Refreshed
 ###### Modern customisable Discord theme
-###### v 0.1.3
+###### v 0.1.5
 
 </div>
 
