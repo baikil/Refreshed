@@ -32,5 +32,5 @@ You can customize:
 
 Put [Refreshed.theme.css](https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.theme.css) into:
 
-- BetterDiscord: `%appdata%\betterdiscord\themes`
-- Vencord: `%appdata%\vencord\themes`
+- [BetterDiscord](https://betterdiscord.app/): `%appdata%\betterdiscord\themes`
+- [Vencord](https://vencord.dev/download/): `%appdata%\vencord\themes`
