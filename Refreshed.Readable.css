@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.1.0 - Readable
+Refreshed v0.1.1 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -16,7 +16,7 @@ By: OogaBoogaBrain
 /* Refreshed Vars */
 :root {
 	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
-	--Refreshed-Blur-value:blur(--Refreshed-Blur-ammount);
+	--Refreshed-Blur-value:blur(var(--Refreshed-Blur-ammount));
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
 	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
