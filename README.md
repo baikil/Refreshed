@@ -30,7 +30,7 @@ You can customize:
 
 ## Installation
 
-Put `Refreshed.theme.css` into:
+Put [Refreshed.theme.css](https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.theme.css) into:
 
 - BetterDiscord: `%appdata%\betterdiscord\themes`
 - Vencord: `%appdata%\vencord\themes`
