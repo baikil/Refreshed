@@ -1,0 +1,28 @@
+```
+ ooooooooo.              .o88o.                             oooo                        .o8  
+ `888   `Y88.            888 `"                             `888                       "888  
+  888   .d88'  .ooooo.  o888oo  oooo d8b  .ooooo.   .oooo.o  888 .oo.    .ooooo.   .oooo888  
+  888ooo88P'  d88' `88b  888    `888""8P d88' `88b d88(  "8  888P"Y88b  d88' `88b d88' `888  
+  888`88b.    888ooo888  888     888     888ooo888 `"Y88b.   888   888  888ooo888 888   888  
+  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
+ o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
+```
+
+<div align="center">
+
+# Refreshed
+###### Modern customisable Discord theme
+###### v 0.0.9
+
+</div>
+
+![DMs - User Profile](https://i.ibb.co/TDPxGLmy/Version0-0-9-dm.png)
+
+![Server View](https://i.ibb.co/dsMTdVXJ/Version0-0-9-server.png)
+
+## Installation
+
+Put `Refreshed.theme.css` into:
+
+- BetterDiscord: `%appdata%\betterdiscord\themes`
+- Vencord: `%appdata%\vencord\themes`
