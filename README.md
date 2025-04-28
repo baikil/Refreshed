@@ -20,6 +20,14 @@
 
 ![Server View](https://i.ibb.co/dsMTdVXJ/Version0-0-9-server.png)
 
+## Customization
+
+You can customize:
+
+- The accent color
+- The ammount of blur
+- (More to come...)
+
 ## Installation
 
 Put `Refreshed.theme.css` into:
