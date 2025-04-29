@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.1 - Readable
+Refreshed v0.2.2 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -15,11 +15,13 @@ By: OogaBoogaBrain
 
 /* Refreshed Vars */
 :root {
+	--Refreshed-Accent-color:hsl(var(--Refreshed-Accent-hue), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
+	--Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 60), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
 	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
 	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
-	--Refreshed-Radial-gradient:radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, var(--bg-base-tertiary) 75%);
+	--Refreshed-Radial-gradient:radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color2) 65%, var(--bg-base-tertiary) 75%);
 }
 
 /* Default Vars */
