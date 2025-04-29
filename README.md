@@ -12,7 +12,7 @@
 
 # Refreshed
 ###### Modern customisable Discord theme
-###### v 0.1.7
+###### v 0.2.0
 
 </div>
 
@@ -26,6 +26,7 @@ You can customize:
 
 - The accent color
 - The ammount of blur
+- The loading screen GIF
 - (More to come...)
 
 ## Installation
