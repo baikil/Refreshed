@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.1.7 - Readable
+Refreshed v0.2.0 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -165,4 +165,35 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
 /* Opened Event Background */
 .layer_bc663c {
 	backdrop-filter:blur(2px);
+}
+
+/* Aligned Chat Box and Typing indicator - by ragnar.es */
+.container_c48ade {
+  --custom-chat-input-margin-bottom: 22px;
+}
+:root {
+  --custom-channel-textarea-text-area-height: 42px;
+}
+.visual-refresh .base_b88801 {
+  font-size: 13.5px;
+  height: 22px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Custom loading GIF (modified) - by justmaddog*/
+.content_a2f514 {
+    display: flex;
+    flex-direction: column;
+    > .spinner_a2f514 { display: none }
+    &:before {
+        display: block;
+        height: 128px;
+        position: relative;
+        content: var(--Refreshed-Loading-gif);
+        image-rendering: auto;
+         align-content: center;
+         scale: 1;
+         margin-bottom: 96px;
+    }
 }
