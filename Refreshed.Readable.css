@@ -16,7 +16,7 @@ By: OogaBoogaBrain
 /* Refreshed Vars */
 :root {
 	--Refreshed-Accent-color:hsl(var(--Refreshed-Accent-hue), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
-	--Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 60), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
+	--Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 30), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
 	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
