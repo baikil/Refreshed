@@ -7,21 +7,19 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.2 - Readable
+Refreshed v0.2.3 - Readable
 By: OogaBoogaBrain 
 */
-
-/* ----- Var Overrides ----- */
 
 /* Refreshed Vars */
 :root {
 	--Refreshed-Accent-color:hsl(var(--Refreshed-Accent-hue), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
-	--Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 30), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
+	/* --Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 45), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness)); */
 	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
 	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
-	--Refreshed-Radial-gradient:radial-gradient(circle, rgba(0,0,0,0) 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color2) 65%, var(--bg-base-tertiary) 75%);
+	--Refreshed-Radial-gradient:radial-gradient(circle, transparent 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, var(--bg-base-tertiary) 75%);
 }
 
 /* Default Vars */
@@ -38,10 +36,6 @@ By: OogaBoogaBrain
 	--border-faint:var(--Refreshed-Accent-faint)!important;
 	--background-code:#1f202f!important;
 }
-
-
-
-/* ----- Class Edits ----- */
 
 /* Channel List */
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav {
@@ -181,4 +175,14 @@ div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
   height: 22px;
   display: flex !important;
   align-items: center !important;
+}
+
+/* Message > Timestamp */
+time[id^="message-timestamp-"] {
+	color:rgba(255,255,255,33%)!important;
+}
+
+/* Chats > Background */
+.visual-refresh .chatContent_f75fb0 {
+    background: radial-gradient(circle, transparent 65%, var(--bg-base-tertiary) 75%), var(--Refreshed-Linear-gradient-dim)!important;
 }
