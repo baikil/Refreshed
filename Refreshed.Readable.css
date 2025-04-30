@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.3 - Readable
+Refreshed v0.2.4 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -185,4 +185,9 @@ time[id^="message-timestamp-"] {
 /* Chats > Background */
 .visual-refresh .chatContent_f75fb0 {
     background: radial-gradient(circle, transparent 65%, var(--bg-base-tertiary) 75%), var(--Refreshed-Linear-gradient-dim)!important;
+}
+
+/* Server Title / Icon */
+.title__85643 {
+	filter: drop-shadow(0px 0px 6px var(--Refreshed-Accent-color));
 }
