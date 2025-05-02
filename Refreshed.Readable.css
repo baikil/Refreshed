@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.5 - Readable
+Refreshed v0.2.6 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -248,4 +248,10 @@ time[id^="message-timestamp-"] {
     background-color: transparent;
     background-size: 12px;
     background-position: center;
+}
+
+/* Watch Stream > Button */
+div.content__2f4f7.streamPreview__2f4f7 > button {
+    background-color:var(--Refreshed-Transparent-bg);
+    backdrop-filter:var(--Refreshed-Blur-value);
 }
