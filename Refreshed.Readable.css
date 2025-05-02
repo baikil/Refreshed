@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.4 - Readable
+Refreshed v0.2.5 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -190,4 +190,62 @@ time[id^="message-timestamp-"] {
 /* Server Title / Icon */
 .title__85643 {
 	filter: drop-shadow(0px 0px 6px var(--Refreshed-Accent-color));
+}
+
+/* Transparent Folders Left (edited) - by can.i.pet.ur.cat */
+.folderPreview__48112 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    height: calc(var(--guildbar-folder-size) - var(--custom-folder-preview-padding)* 2);
+    width: calc(var(--guildbar-folder-size) - var(--custom-folder-preview-padding)* 2);
+    align-items: center;
+    justify-content: center;
+}
+.expandedFolderIconWrapper__48112 > svg:has(>path[d="M2 5a3 3 0 0 1 3-3h3.93a2 2 0 0 1 1.66.9L12 5h7a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Z"]) {
+    scale: 10;
+}
+.expandedFolderIconWrapper__48112::after,
+.folderPreview__48112::after {
+    content: "";
+    background-color: var(--Refreshed-Accent-color);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    clip-path: path("M2 5a3 3 0 0 1 3-3h3.93a2 2 0 0 1 1.66.9L12 5h7a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Z");
+}
+.folderPreview__48112 > .folderPreviewGuildIcon__48112 {
+    opacity: .5;
+    filter: blur(2px);
+}
+.theme-dark .hiddenVisually__27f77[aria-expanded="false"] {
+    background-color: black;
+}
+.theme-light .hiddenVisually__27f77[aria-expanded="false"] {
+    background-color: #747474;
+}
+
+/* Message Bubble on Hover - by refract0r */
+.wrapper__2ea32 .link__2ea32 {
+    transition: margin-left 0.2s ease;
+}
+.wrapper__2ea32:hover .link__2ea32 {
+    margin-left: 10px;
+}
+.unread__2ea32 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    transition: 0.2s ease;
+}
+.wrapper__2ea32:hover .unread__2ea32 {
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    margin-left: 3px;
+    background-color: transparent;
+    background-size: 12px;
+    background-position: center;
 }
