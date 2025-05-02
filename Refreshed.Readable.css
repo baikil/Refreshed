@@ -14,10 +14,10 @@ By: OogaBoogaBrain
 /* Refreshed Vars */
 :root {
 	--Refreshed-Accent-color:hsl(var(--Refreshed-Accent-hue), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness));
-	/* --Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 45), var(--Refreshed-Accent-saturation), var(--Refreshed-Accent-lightness)); */
-	--Refreshed-Transparent-bg:rgba(128,128,128,0.1);
+	--Refreshed-Accent-color2:hsl(calc(var(--Refreshed-Accent-hue) + 10), calc(var(--Refreshed-Accent-saturation) / 2), calc(var(--Refreshed-Accent-lightness) /2));
+	--Refreshed-Transparent-bg:rgba(64,64,64,0.1);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
-	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), rgba(255,255,255,0.0));
+	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), transparent);
 	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
 	--Refreshed-Radial-gradient:radial-gradient(circle, transparent 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, var(--bg-base-tertiary) 75%);
 }
@@ -25,6 +25,7 @@ By: OogaBoogaBrain
 /* Default Vars */
 :root{
 	--bg-brand:var(--Refreshed-Accent-color)!important;
+	--blurple-50:var(--Refreshed-Accent-color)!important;
 	--brand-500:var(--Refreshed-Accent-color)!important;
 	--brand-560:color-mix(in oklab, var(--Refreshed-Accent-color) 80%, black)!important;
 	--opacity-blurple-16:var(--Refreshed-Accent-faint)!important;
@@ -35,6 +36,7 @@ By: OogaBoogaBrain
 	--app-border-frame:var(--Refreshed-Accent-faint)!important;
 	--border-faint:var(--Refreshed-Accent-faint)!important;
 	--background-code:#1f202f!important;
+	--text-brand:var(--Refreshed-Accent-color)!important;
 }
 
 /* Channel List */
@@ -119,8 +121,8 @@ By: OogaBoogaBrain
 }
 
 /* Server Folder Icon */
-div.folderIcon__48112 > div > svg > foreignObject > div > div > div > svg {
-	color:var(--Refreshed-Accent-color)!important;
+div.folderIconWrapper__48112 > div > svg > path {
+	fill: color-mix(in oklab, var(--Refreshed-Accent-color) 70%, transparent);
 }
 
 /* User Panel BG */
@@ -209,7 +211,7 @@ time[id^="message-timestamp-"] {
 .expandedFolderIconWrapper__48112::after,
 .folderPreview__48112::after {
     content: "";
-    background-color: var(--Refreshed-Accent-color);
+    background: var(--Refreshed-Linear-gradient), color-mix(in oklab, var(--Refreshed-Accent-color) 35%, transparent);
     width: 24px;
     height: 24px;
     position: absolute;
@@ -254,4 +256,40 @@ time[id^="message-timestamp-"] {
 div.content__2f4f7.streamPreview__2f4f7 > button {
     background-color:var(--Refreshed-Transparent-bg);
     backdrop-filter:var(--Refreshed-Blur-value);
+}
+
+/* Empty Voice Chat Background Light Effect */
+.foregroundBase__11664 {
+	background:var(--Refreshed-Accent-color);
+}
+.foregroundRing__11664 {
+	border:15px solid var(--Refreshed-Accent-color);
+}
+.backgroundLight__11664 {
+	background:var(--Refreshed-Accent-color);
+}
+.backgroundDark__11664 {
+	background:var(--Refreshed-Accent-color2);
+}
+
+/* Remove Button */
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5,
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5 {
+	color:#AAA5;
+}
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5:hover,
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5:hover {
+	color:var(--Refreshed-Accent-color);
+}
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
+	--button--underline-color:var(--Refreshed-Accent-color);
+}
+
+/* Settings > Toggle Switches */
+.container__87bf1.checked__87bf1 {
+	background-color:var(--Refreshed-Accent-color)!important;
+}
+div.labelRow__0d850 > div > div.container__87bf1.checked__87bf1 > svg > svg *,
+div.vc-addon-header > div > div.container__87bf1.default-colors.checked__87bf1 > svg > svg * {
+	fill:var(--Refreshed-Accent-color2);
 }
