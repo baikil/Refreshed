@@ -2,7 +2,7 @@
  * @name Refreshed
  * @description Minimalist customisable theme for the new Discord version.
  * @author OogaBoogaBrain
- * @version 0.2.7
+ * @version 0.2.8
  * @authorId 615359270367526912
  * @authorLink https://github.com/baikil
  * @source https://github.com/baikil/Refreshed
@@ -19,7 +19,7 @@
 */
 
 /* Refreshed imports */
-/* @import url("https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Look.css"); */
+@import url("https://raw.githubusercontent.com/baikil/Refreshed/refs/heads/main/Refreshed.Look.css");
 
 /* Optionnal features */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css");
