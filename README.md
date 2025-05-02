@@ -16,9 +16,9 @@
 
 </div>
 
-![DMs - User Profile](https://i.ibb.co/84MJyMFg/Version0-2-6-dm.png)
+![DMs - User Profile](https://i.ibb.co/MkXCsNFH/Version0-2-6-dm.png)
 
-![Server View](https://i.ibb.co/VccKvhH4/Version0-2-6-server.png)
+![Server View](https://i.ibb.co/SX1Kxnw4/Version0-2-6-server.png)
 
 ## Customization
 
