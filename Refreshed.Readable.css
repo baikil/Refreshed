@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.8 - Readable
+Refreshed v0.2.9 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -294,26 +294,21 @@ div.vc-addon-header > div > div.container__87bf1.default-colors.checked__87bf1 >
 	fill:var(--Refreshed-Accent-color2);
 }
 
-/* Gradient DM / ML (edited) - by ukriku */
+/* Shadow Status > User Icon */
 div > [class*="layout_"],
 ul > li > [class*="interactive_"] {
     border-radius: 12px;
     margin: 0.3px;
 }
-[class^="memberInner"]:has([mask*="online"], [fill="#43a25a"]),
-[class^="link_"]:has([mask*="online"], [fill="#43a25a"]) {
-	background: linear-gradient(120deg, rgb(45, 78, 45) , rgba(45, 78, 45, 0.1));
+.wrapper__44b0c:has([mask*="online"], [fill="#43a25a"]){
+	filter: drop-shadow(0px 0px 3px #43a25a)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
 }
-[class^="memberInner"]:has([mask*="dnd"], [fill="#d83a42"]),
-[class^="link_"]:has([mask*="dnd"], [fill="#d83a42"]) {
-	background: linear-gradient(120deg, rgb(130,70,70) , rgba(130, 70, 70, 0.1));
+.wrapper__44b0c:has([mask*="dnd"], [fill="#d83a42"]) {
+	filter: drop-shadow(0px 0px 3px #d83a42)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
 }
-[class^="memberInner"]:has([mask*="idle"], [fill="#ca9654"]),
-[class^="link_"]:has([mask*="idle"], [fill="#ca9654"]) {
-	background: linear-gradient(120deg, rgb(92, 68, 44) , rgba(92, 68, 44, 0.1));
+.wrapper__44b0c:has([mask*="idle"], [fill="#ca9654"]) {
+	filter: drop-shadow(0px 0px 3px #ca9654)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
 }
-[class^="memberInner"]:has([mask*="streaming"], [fill="#9147ff"]),
-[class^="link_"]:has([mask*="streaming"], [fill="#9147ff"]) {
-	background: linear-gradient(120deg, rgb(63, 33, 88) , rgba(63, 33, 88, 0.1));
+.wrapper__44b0c:has([mask*="streaming"], [fill="#9147ff"]) {
+	filter: drop-shadow(0px 0px 3px #9147ff)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
 }
-[class*="memberInner_"][class*="layout_"] {width: 100%}
