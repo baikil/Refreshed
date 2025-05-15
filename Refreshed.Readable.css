@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.2.9 - Readable
+Refreshed v0.3.0 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -61,7 +61,7 @@ By: OogaBoogaBrain
 /* User Panel */
 .panels_c48ade {
 	background:var(--Refreshed-Transparent-bg)!important;
-	backdrop-filter:var(--Refreshed-Blur-value)!important;
+	backdrop-filter:var(--Refreshed-Blur-value);
 }
 
 /* User Panel > Screen Share */
@@ -97,7 +97,7 @@ By: OogaBoogaBrain
 /* New Unreads Button */
 .bar__7aaec {
 	background:var(--Refreshed-Transparent-bg)!important;
-	backdrop-filter:var(--Refreshed-Blur-value)!important;
+	backdrop-filter:var(--Refreshed-Blur-value);
 }
 
 /* Server Selected / Unread Message */
@@ -128,7 +128,7 @@ div.folderIconWrapper__48112 > div > svg > path {
 /* User Panel BG */
 :where(.outer_c0bea0) {
     background:var(--Refreshed-Transparent-bg)!important;
-	backdrop-filter:var(--Refreshed-Blur-value)!important;
+	backdrop-filter:var(--Refreshed-Blur-value);
 }
 .inner_c0bea0.biteSize_c0bea0 {
 	background:transparent!important;
@@ -141,7 +141,7 @@ div.folderIconWrapper__48112 > div > svg > path {
 
 /* In Call > Name Tag */
 .experimentOverlayTitle__2f4f7 {
-	backdrop-filter:var(--Refreshed-Blur-value)!important;
+	backdrop-filter:var(--Refreshed-Blur-value);
 	background-color:var(--Refreshed-Transparent-bg);
 }
 
@@ -300,6 +300,7 @@ ul > li > [class*="interactive_"] {
     border-radius: 12px;
     margin: 0.3px;
 }
+.wrapper__44b0c.avatar__0a06e {padding: 4px;}
 .wrapper__44b0c:has([mask*="online"], [fill="#43a25a"]){
 	filter: drop-shadow(0px 0px 3px #43a25a)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
 }
@@ -311,4 +312,36 @@ ul > li > [class*="interactive_"] {
 }
 .wrapper__44b0c:has([mask*="streaming"], [fill="#9147ff"]) {
 	filter: drop-shadow(0px 0px 3px #9147ff)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
+}
+
+/* Vencord > Member Count Online Glow */
+.vc-membercount-widget.vc-membercount-member-list > div:nth-child(1) {
+	filter: drop-shadow(0px 0px 3px #43a25a)drop-shadow(0px 0px 1px var(--bg-base-tertiary));
+}
+
+/* Activity > Popout */
+.popout_af3b89 {
+	border: 1px solid var(--Refreshed-Accent-faint);
+	border-radius: 12px;
+	box-shadow:0px 0px 16px rgba(0,0,0,0.2);
+	backdrop-filter:var(--Refreshed-Blur-value);
+}
+.popoutContentWrapper_af3b89,
+.interactionsContainer_af3b89 {
+	background:var(--Refreshed-Transparent-bg);
+}
+
+/* Friends > Active Now > Popout */
+.menu_c1e9c4.flexible_c1e9c4 {
+	border-color:var(--Refreshed-Accent-faint);
+	background:var(--Refreshed-Transparent-bg);
+	backdrop-filter:var(--Refreshed-Blur-value);
+}
+
+/* New Message Divider */
+.visual-refresh .content__908e2 {
+	color:white;
+	border:1px solid var(--divider-color);
+	background:transparent;
+	backdrop-filter:var(--Refreshed-Blur-value);
 }
