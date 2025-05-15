@@ -7,7 +7,7 @@ ooooooooo.              .o88o.                             oooo                 
  888  `88b.  888    .o  888     888     888    .o o.  )88b  888   888  888    .o 888   888  
 o888o  o888o `Y8bod8P' o888o   d888b    `Y8bod8P' 8""888P' o888o o888o `Y8bod8P' `Y8bod88P"
 
-Refreshed v0.3.0 - Readable
+Refreshed v0.3.1 - Readable
 By: OogaBoogaBrain 
 */
 
@@ -18,7 +18,7 @@ By: OogaBoogaBrain
 	--Refreshed-Transparent-bg:rgba(64,64,64,0.1);
 	--Refreshed-Accent-faint:color-mix(in oklab, var(--Refreshed-Accent-color) 20%, transparent);
 	--Refreshed-Linear-gradient:linear-gradient(300deg, var(--Refreshed-Accent-color), transparent);
-	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), rgba(255,255,255,0.0));
+	--Refreshed-Linear-gradient-dim:linear-gradient(300deg, color-mix(in oklab, var(--Refreshed-Accent-color) 66%, transparent), transparent);
 	--Refreshed-Radial-gradient:radial-gradient(circle, transparent 33%, var(--Refreshed-Accent-color) 60%, var(--Refreshed-Accent-color) 65%, var(--bg-base-tertiary) 75%);
 }
 
@@ -344,4 +344,16 @@ ul > li > [class*="interactive_"] {
 	border:1px solid var(--divider-color);
 	background:transparent;
 	backdrop-filter:var(--Refreshed-Blur-value);
+}
+
+/* Server Separator / Add Server Button / Discover Button */
+.guildSeparator__252b6,
+.circleIconButton__5bc7e {
+	/* background:radial-gradient(circle,var(--Refreshed-Accent-faint) 33%, var(--bg-base-tertiary))!important; */
+	background:var(--Refreshed-Linear-gradient-dim), var(--Refreshed-Accent-faint)!important;
+}
+
+/* User Pannel Border */
+.panels_c48ade {
+	border-color:var(--Refreshed-Accent-faint)!important;
 }
